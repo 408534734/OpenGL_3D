@@ -30,7 +30,7 @@ void lab2() {
 
 }
 
-int main(int argc, char* argv[]) {
+int _main(int argc, char* argv[]) {
 	glutInit(&argc, argv);//初始化GLUT库
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);//设置显示模式：缓存、RGB模式
 	glutInitWindowSize(500, 500);//设置窗口大小
